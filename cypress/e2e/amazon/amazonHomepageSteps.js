@@ -38,8 +38,8 @@ Then('I should see the "Address icon" link', () => {
     AmazonHomePage.getAddressLink().should('be.visible');
 });
 
-Then('I should see the "Menu Icon"', () => {
-    AmazonHomePage.getMenuIcon().should('be.visible');
+Then('I should see the "Return link"', () => {
+    AmazonHomePage.getReturnLink().should('be.visible');
 });
 
 Then('I should see footer links like "About Us" and "Careers"', () => {

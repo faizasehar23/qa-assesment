@@ -35,8 +35,8 @@ class AmazonHomePage {
         return cy.contains('Deliver to');
     }
 
-    getMenuIcon() {
-        return cy.contains('#nav - orders');
+    getReturnLink() {
+        return cy.contains('Returns');
     }
 
     getFooterLinks() {

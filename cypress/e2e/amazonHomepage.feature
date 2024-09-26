@@ -34,9 +34,9 @@ Feature: Amazon Homepage
     Given I am on the Amazon homepage
     Then I should see the "Address icon" link
 
-  Scenario: Menu Icon is visible
+  Scenario: Return link is present
     Given I am on the Amazon homepage
-    Then I should see the "Menu Icon" 
+    Then I should see the "Return link" 
 
   Scenario: Footer links are present
     Given I am on the Amazon homepage
