@@ -1,5 +1,5 @@
 # qa-assesment
-This assignment is build using javascript and this framework will be used for end-to-end automation.
+This assignment is built using javascript with cypress and cuccumber with BDD
 
 Setup
 
