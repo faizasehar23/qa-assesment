@@ -1,8 +1,13 @@
 # qa-assesment
-Tool used for this assignment= Cypress -7.3.0
-In Calculator.feature fiile -> All the features are written
-With The same name under integration Calcualtor folder is created with the step definitaion file.
-To run the feature file, command is = npx cypress open
+This assignment is build using javascript and this framework will be used for end-to-end automation.
 
-Please feel free to ping me if there is any ambiguity. 
+Setup
+Install Node according to vendor instructions
+Clone the repo
+Run npm Install to install the devDependencies
+Run npm install cypress --save-dev
+To install Cucumber "npm install --save-dev cypress-cucumber-preprocessor"
+Run Tests
+a. To open Cypress server for running tests visually run "npx cypress open" 
+b. To run the tests in headless mode "npx cypress run"
 
